@@ -7,5 +7,6 @@ bouton.addEventListener("click", () => {
   let valTaille = taille.value;
   let imc = valPoids / valTaille ** 2;
 
-  alert("Votre IMC est de " + imc);
+  let result = Math.round(imc);
+  alert(result)
 });
